@@ -3,13 +3,9 @@ language: ruby
 rvm:
   - 2.1.5
 
-install:
-  - date
-  - cal 6 2015
-
 script:
   - rake default
   - true
-  
+
 notifications:
   email: false
